@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(240, 214, 240),rgb(243, 240, 241));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 95%;
+    height: 640px;
+   background-image: url(background.jpeg);
+   background-size: 1500px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 300%;
+    text-transform: uppercase;
+    }
+
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 120%;
+}    
+
+ul a:hover{
+    border-bottom: 2px solid pink;
+}
+
+.content{
+    width: 50%;
+    margin-top: 100px;
+    padding: 30px;
+    color: black;
+}
+
+.content h1{
+    font-size:50px ;
+    text-transform: uppercase;
+    color:black;
+}
+
+.content p{
+    initial-letter: 2px;
+    width: 420px;
+    padding: 20px 0;
+}
+
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: pink;
+    background-color: plum;
+}
+
+.content button:hover{
+    background-color: transparent;
+    border: 2px solid pink;
+   color: pink; 
+   cursor: pointer;
+}
+
