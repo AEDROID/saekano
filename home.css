@@ -9,6 +9,8 @@
 body{
     background-image: url(background.jpeg);
     background-size: 1500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     display: flex;
     justify-content: center;
