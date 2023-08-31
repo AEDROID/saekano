@@ -15,11 +15,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container{
     width: 95%;
     height: 640px;
+   background-image: url(background.jpeg);
+   background-size: 1500px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
    
 }
 
@@ -39,27 +44,52 @@ a{
 }
 
 .logo{
-    font-size: 300%;
+    font-size: 250%;
     text-transform: uppercase;
+    color:white;
+    background-color: pink;
+    border: pink;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border-style: none;
     }
 
+.logo:hover{
+    background-color: transparent;
+    color: black;
+}    
+
 ul{
-    width: 100%;
+    width: 80%;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    font-size: 120%;
+    font-size: 140%;
+    background-image: linear-gradient(to bottom, pink, transparent);
+    border-radius: 8px;
+    
 }    
 
 ul a:hover{
-    border-bottom: 2px solid pink;
+    background-color: pink;
+    border-radius: 10px;
+    color: white;
+    padding: 1px 2px;
 }
 
 .content{
-    width: 50%;
+    width: 30%;
     margin-top: 100px;
     padding: 30px;
     color: black;
+    
+}
+
+.content:hover{
+    background-image: linear-gradient(to bottom, pink -70% , transparent);
+    border-radius: 10px;
+    
+    
 }
 
 .content h1{
@@ -88,4 +118,5 @@ ul a:hover{
    color: pink; 
    cursor: pointer;
 }
+
 
